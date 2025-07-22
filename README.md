@@ -6,7 +6,7 @@ Simulador FinOps — Geração de dados sintéticos de custos, métricas e recom
 
 Este projeto fornece:
 
-Script PowerShell (SimuladoresFinOps_v5.ps1): gera dados de FinOps sintéticos (recursos, custos, métricas, recomendações) em modo simulação ou coleta real do tenant.
+Script PowerShell (SimuladoresFinOps.ps1): gera dados de FinOps sintéticos (recursos, custos, métricas, recomendações) em modo simulação ou coleta real do tenant.
 
 Exemplo de Dashboard: orientação para construção de um painel executivo (Power BI / grafana / web) com os dados exportados.
 
