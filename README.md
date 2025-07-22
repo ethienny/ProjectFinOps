@@ -12,20 +12,6 @@ Exemplo de Dashboard: orientação para construção de um painel executivo (Pow
 
 Uso ideal para demonstrações, treinamentos e testes de plataformas FinOps sem necessidade de ambiente real.
 
-🛠️ Estrutura do Repositório
-
-/ (root)
-├─ README.md               # Documentação principal (este arquivo)
-├─ SimuladoresFinOps_v5.ps1# Script PowerShell de simulação
-├─ /data                   # Pasta para armazenar arquivos de saída
-│   ├─ FinOps_CostData.csv
-│   ├─ FinOps_MetricsData.csv
-│   ├─ FinOps_Recommendations.csv
-│   └─ FinOps_TagAnalysis.csv
-└─ /dashboard              # Exemplos e arquivos de suporte para o dashboard
-    ├─ Dashboard_Template.pbix   # Exemplo Power BI
-    └─ samples               # Arquivos JSON/CSV de exemplo
-
 ⚙️ Pré-requisitos
 
 PowerShell 7.0+
@@ -45,7 +31,7 @@ Permissões de leitura em subscriptions (modo real) ou modo simulação (-Simula
 🚀 Como Executar
 
 # Em modo simulação:
-./SimuladoresFinOps_v5.ps1 \
+./SimuladoresFinOps.ps1 \
   -SimulationMode $true \
   -MonthsBack 3 \
   -SubscriptionCount 5 \
@@ -53,7 +39,7 @@ Permissões de leitura em subscriptions (modo real) ou modo simulação (-Simula
   -OutputFolder "./data"
 
 # Em modo real (coleta de dados do tenant):
-./SimuladoresFinOps_v5.ps1 \
+./SimuladoresFinOps.ps1 \
   -SimulationMode $false \
   -MonthsBack 6 \
   -SubscriptionCount 10 \
