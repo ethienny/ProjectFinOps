@@ -1,6 +1,6 @@
 Simuladores FinOps Azure
 
-Simulador FinOps Avançado v5.0 — Geração de dados sintéticos de custos, métricas e recomendações para recursos Azure e exemplo de dashboard executivo.
+Simulador FinOps — Geração de dados sintéticos de custos, métricas e recomendações para recursos Azure e exemplo de dashboard executivo.
 
 📖 Visão Geral
 
